@@ -1,0 +1,13 @@
+.button-wrapper {
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  button {
+    height: 12.5%;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
+}
