@@ -19,10 +19,11 @@ export default function Foo(props) {
   // updates local emoji state
   function updateEmojiArrays(emojiIndex) {
     const d = new Date();
-    let ms = d.getMilliseconds();
+    const ms = d.getMilliseconds();
     let newState = [ ...emojiArray ];
     newState[emojiIndex] += emojis[emojiIndex]
     push(newState)
+
     // push and update current time
     socket.emit('time', ms)
     socket.on('time', function (time) {

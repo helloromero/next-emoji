@@ -21,7 +21,7 @@ io.on('connection', (socket) => {
     io.emit('emojiState', data)
   });
 
-  // send respnse time back to local 
+  // send response time back to local 
   socket.on('time', (data) => {
     const d = new Date()
     const ms = d.getMilliseconds()
