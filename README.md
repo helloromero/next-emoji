@@ -1,6 +1,6 @@
 ## next-emoji
 
-A simple example of [sockets.io](https://socket.io/) working in browser.
+a *very* simple example of [sockets.io](https://socket.io/) running inside a [next.js](https://nextjs.org/) project.
 
 
 ## how to run
